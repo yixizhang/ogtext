@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Yixi Zhang <yixi.zhang.max@gmail.com>",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
